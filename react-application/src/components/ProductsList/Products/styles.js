@@ -53,8 +53,6 @@ export const StyledLi = styled.li`
       padding: 10px 25px;
     }
     @media (max-width: 900px){
-        figure {
-            width: auto;
-        }
+      min-width: 270px;
     }
 `

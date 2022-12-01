@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledAside = styled.aside`
 
 margin: 0px 20px;
+width: 325px;
 
 .container-cart {
   padding: 20px;

@@ -6,7 +6,7 @@ export const StyledUl = styled.ul`
   overflow: auto;
   align-items: center;
   gap: 15px;
-  margin: 20px 0px 70px 20px;
+  margin: 20px 0px 70px 0px;
   width: 85vw;
   
   @media (min-width: 900px) {

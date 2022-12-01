@@ -6,7 +6,8 @@ export const StyledCardCart = styled.li`
   padding: 10px;
   background: #F5F5F5;
   border-bottom: 1px solid #E0E0E0;
-
+  overflow: hidden;
+  min-width: 300px;
 
 .cart-card__content-div {
   display: flex;
@@ -37,6 +38,7 @@ export const StyledCardCart = styled.li`
   font-weight: 700;
   color: #333333;
   font-size: 14px;
+  width: 77px;
 }
 
 .div-text-cart > span {
@@ -53,6 +55,6 @@ export const StyledCardCart = styled.li`
   font-size: 12px;
 }
 @media (min-width: 900px) {
-    width: 300px;
+    min-width: 300px;
 }
 `

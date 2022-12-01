@@ -1,9 +1,6 @@
 import TotalCart from "./TotalCart/TotalCart";
 import CardCart from './CartCard/CartCard'
 import { StyledAside } from "./styles";
-import { ToastContainer } from "react-toastify";
-
-
 
 const Cart = ({ currentSale, setCurrentSale }) => {
   return (
